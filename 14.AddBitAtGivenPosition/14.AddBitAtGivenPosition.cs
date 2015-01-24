@@ -14,11 +14,11 @@ namespace _14.AddBitAtGivenPosition
         static void Main()
         {
             //Get the integer, the index and the required new bit value
-            Console.WriteLine("Please, enter an integer n");
+            Console.Write("Please, enter an integer n: ");
             int integer = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please, indicate the index of the bit");
+            Console.Write("Please, indicate the index of the bit: ");
             int position = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please, give value of the chosen bit");
+            Console.Write("Please, give value of the chosen bit: ");
             int value = int.Parse(Console.ReadLine());
 
             int mask = 1 << position;

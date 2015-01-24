@@ -17,11 +17,11 @@ namespace _09.Trapezoids
             Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
             Console.WriteLine("Please, enter the two sides and the height of the trapezoid: ");
-            Console.WriteLine("a = ");
+            Console.Write("a = ");
             double side_a = double.Parse(Console.ReadLine());
-            Console.WriteLine("b = ");
+            Console.Write("b = ");
             double side_b = double.Parse(Console.ReadLine());
-            Console.WriteLine("h = ");
+            Console.Write("h = ");
             double height = double.Parse(Console.ReadLine());
 
             //Calculate the are

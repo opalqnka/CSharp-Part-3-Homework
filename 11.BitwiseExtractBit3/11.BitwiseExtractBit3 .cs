@@ -14,7 +14,7 @@ namespace _11.BitwiseExtractBit3
     {
         static void Main()
         {
-            Console.WriteLine("Please, enter an integer");
+            Console.Write("Please, enter an integer: ");
             int integer = int.Parse(Console.ReadLine());
             int position = 3;
 

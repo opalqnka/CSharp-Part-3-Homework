@@ -11,7 +11,7 @@ namespace _05.ThirdDigitIs7
     {
         static void Main()
         {
-            Console.WriteLine("Please, enter an integer (with at least 3 digits): ");
+            Console.Write("Please, enter an integer (with at least 3 digits): ");
             int integer = int.Parse(Console.ReadLine());
             int result = ((integer / 10) / 10 ) % 10;
             Console.WriteLine("The 3rd digit is 7? {0}", result == 7);

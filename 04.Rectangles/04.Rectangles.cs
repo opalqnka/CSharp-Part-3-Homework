@@ -17,9 +17,9 @@ namespace _04.Rectangles
             Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
             Console.WriteLine("Please, enter the width and height of the rectangle: ");
-            Console.WriteLine("Width: ");
+            Console.Write("Width: ");
             double width = double.Parse(Console.ReadLine());
-            Console.WriteLine("Height: ");
+            Console.Write("Height: ");
             double height = double.Parse(Console.ReadLine());          
 
             double perimeter = 2 * (height + width);

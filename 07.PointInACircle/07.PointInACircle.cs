@@ -18,9 +18,9 @@ namespace _07.PointInACircle
             Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
             Console.WriteLine("Please, enter a point on the X-Y plane: ");
-            Console.WriteLine("X = ");
+            Console.Write("X = ");
             double x_coordinate = double.Parse(Console.ReadLine());
-            Console.WriteLine("Y = ");
+            Console.Write("Y = ");
             double y_coordinate = double.Parse(Console.ReadLine());
 
             double radiusOriginal = 2.0;

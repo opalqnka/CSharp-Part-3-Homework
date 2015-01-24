@@ -12,7 +12,7 @@ namespace _01.OddOrEvenIntegers
     {
         static void Main()
         {
-            Console.WriteLine("Please, enter an integer: ");
+            Console.Write("Please, enter an integer: ");
             int integer = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Odd?\n{0}", integer % 2 == 0 || integer == 0 ? false : true);

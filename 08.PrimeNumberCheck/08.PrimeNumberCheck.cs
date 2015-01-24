@@ -11,7 +11,7 @@ namespace _08.PrimeNumberCheck
     {
         static void Main()
         {
-            Console.WriteLine("Please, enter a positive integer n (n <= 100): ");
+            Console.Write("Please, enter a positive integer n (n <= 100): ");
             int number = int.Parse(Console.ReadLine());
 
             //Check if the number is not positive

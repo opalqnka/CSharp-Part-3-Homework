@@ -15,7 +15,7 @@ namespace _06.Four_DigitNumber
     {
         static void Main()
         {
-            Console.WriteLine("Please, enter a 4-digit number (cannot start with 0): ");
+            Console.Write("Please, enter a 4-digit number (cannot start with 0): ");
             int number = int.Parse(Console.ReadLine());
 
             //Separate the 4 digits

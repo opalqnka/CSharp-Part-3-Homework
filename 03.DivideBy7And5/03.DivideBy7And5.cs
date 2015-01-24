@@ -11,7 +11,7 @@ namespace _03.DivideBy7And5
     {
         static void Main()
         {
-            Console.WriteLine("Please, enter an integer: ");
+            Console.Write("Please, enter an integer: ");
             int integer = int.Parse(Console.ReadLine());
 
             Console.WriteLine(integer % 5 == 0 && integer % 7 == 0 ? true : false);
