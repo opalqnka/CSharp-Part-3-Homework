@@ -26,7 +26,7 @@ namespace _14.AddBitAtGivenPosition
             //Check for incorrect bit value
             if (!((value == 0) ^ (value == 1)))
             {
-                Console.WriteLine("Incorrect choise for v, please try again!");
+                Console.WriteLine("Incorrect choice for v, please try again!");
                 return;
             }
 

@@ -15,7 +15,7 @@ namespace _02.GravitationOnTheMoon
     {
         static void Main()
         {
-            //The following line of code allowes us to enter doubles such as 32.2 and 32,2 with equal outcomes (ie it works both ways)
+            //The following line of code allows us to enter doubles such as 32.2 and 32,2 with equal outcomes (ie it works both ways)
             Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
             Console.Write("Please, enter the person's weight: ");
